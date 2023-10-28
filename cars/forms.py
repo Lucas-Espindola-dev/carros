@@ -17,11 +17,11 @@ class CarModelForm(forms.ModelForm):
     def clean_factory_year(self):
         factory_year = self.cleaned_data.get('factory_year')
         if factory_year < 1960:
-            self.add_error('factory_year', 'Não é possível cadastrar carros anteriores a 1975')
+            self.add_error('factory_year', 'Não é possível cadastrar carros anteriores a 1960')
         return factory_year
 
     def clean_model_year(self):
         model_year = self.cleaned_data.get('model_year')
         if model_year < 1960:
-            self.add_error('factory_year', 'Não é possível cadastrar carros anteriores a 1975')
+            self.add_error('model_year', 'Não é possível cadastrar carros anteriores a 1960')
         return model_year
