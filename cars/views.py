@@ -14,6 +14,8 @@ class CarsListView(ListView):
     def get_queryset(self):
         # Nesse query, todos os modelos são retornados da mesma forma que retorna no objects.all().
         # O super faz referência a ListView. A utilização de super() é para invocar a herança.
+        # Subscreeve-se o Queryset porque, sua configuração padrão é objects.all.
+        # Se o usuário pretende usar um filter ou ordenar de forma diferente do padrão, é necessário subscrever.
         cars = super().get_queryset().order_by('model')
         search = self.request.GET.get('search')
         if search:
