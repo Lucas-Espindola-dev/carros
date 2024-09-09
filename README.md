@@ -36,3 +36,13 @@ Carros App é um projeto que visa gerenciar e listar veículos disponíveis para
 
 ## Estrutura do Projeto
 
+📂 carros/
+ ├── 📁 api/
+ │   ├── views.py        # Lida com as requisições e respostas das rotas da API
+ │   ├── serializers.py  # Serializa os dados para o formato JSON
+ ├── 📁 core/
+ │   ├── models.py       # Modelos do banco de dados (Veículo, Transação, Usuário)
+ ├── 📁 templates/
+ │   ├── index.html      # Página principal do frontend
+ ├── Dockerfile          # Arquivo de configuração Docker para containerização
+ ├── README.md           # Documentação do projeto
