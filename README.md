@@ -46,3 +46,49 @@ Carros App é um projeto que visa gerenciar e listar veículos disponíveis para
  │   ├── index.html      # Página principal do frontend
  ├── Dockerfile          # Arquivo de configuração Docker para containerização
  ├── README.md           # Documentação do projeto
+
+
+## Importância das Funcionalidades
+
+- **Escalabilidade**: O uso de Django Rest Framework e a arquitetura baseada em APIs permite a integração futura com aplicativos móveis ou outros sistemas.
+  
+- **Eficiência**: A implementação de filtros e listagens otimizadas melhora a experiência do usuário, reduzindo o tempo necessário para encontrar informações relevantes.
+  
+- **Segurança**: Com o sistema de autenticação robusto e gerenciamento de usuários, o projeto garante a proteção dos dados dos usuários e das transações realizadas.
+
+## Como Executar o Projeto
+
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/Lucas-Espindola-dev/carros.git
+    ```
+
+2. Acesse o diretório do projeto:
+    ```bash
+    cd carros
+    ```
+
+3. Crie um ambiente virtual e ative-o:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # No Windows: venv\Scripts\activate
+    ```
+
+4. Instale as dependências:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+5. Rode as migrações e inicie o servidor:
+    ```bash
+    python manage.py migrate
+    python manage.py runserver
+    ```
+
+## Contribuições
+
+Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests para melhorar o projeto.
+
+## Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/Lucas-Espindola-dev/carros/blob/main/LICENSE) para mais detalhes.
