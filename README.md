@@ -14,8 +14,6 @@ Carros App é um projeto que visa gerenciar e listar veículos disponíveis para
   
 - **Gerenciamento de Transações**: Inclui funcionalidades para registrar e acompanhar transações de aluguel ou compra, fornecendo histórico detalhado para administradores e usuários.
 
-- **API de Integração**: O sistema foi desenvolvido para integrar com APIs externas que fornecem dados atualizados sobre veículos, como preços médios de mercado e especificações técnicas. A utilização de APIs garante que o sistema seja escalável e mantenha-se atualizado com informações em tempo real.
-
 - **Autenticação de Usuário**: Implementa sistema de login e gerenciamento de usuários, garantindo segurança e privacidade nas transações.
 
 - **Painel Administrativo**: Fornece ferramentas para administradores gerenciarem os veículos cadastrados, transações e usuários do sistema, além de gerar relatórios de performance.
@@ -26,13 +24,9 @@ Carros App é um projeto que visa gerenciar e listar veículos disponíveis para
   
 - **Django**: Framework web que acelera o desenvolvimento, oferecendo um ambiente seguro e escalável para a criação de funcionalidades complexas, como o sistema de autenticação e gerenciamento de transações.
   
-- **Django Rest Framework (DRF)**: Responsável por criar APIs eficientes e seguras, facilitando a comunicação entre o backend e os usuários ou outros sistemas.
-  
 - **SQLite**: Banco de dados leve, ideal para armazenar informações de veículos e transações de forma local durante o desenvolvimento.
   
 - **Bootstrap**: Biblioteca de frontend que garante um design responsivo, proporcionando uma experiência fluida em diferentes dispositivos.
-  
-- **Docker**: Utilizado para containerização, garantindo a fácil reprodução do ambiente de desenvolvimento e deploy consistente em diferentes plataformas.
 
 ## Estrutura do Projeto
 
