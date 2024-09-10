@@ -28,23 +28,7 @@ Carros App é um projeto que visa gerenciar e listar veículos disponíveis para
   
 - **Bootstrap**: Biblioteca de frontend que garante um design responsivo, proporcionando uma experiência fluida em diferentes dispositivos.
 
-## Estrutura do Projeto
-
-📂 carros/
- ├── 📁 api/
- │   ├── views.py        # Lida com as requisições e respostas das rotas da API
- │   ├── serializers.py  # Serializa os dados para o formato JSON
- ├── 📁 core/
- │   ├── models.py       # Modelos do banco de dados (Veículo, Transação, Usuário)
- ├── 📁 templates/
- │   ├── index.html      # Página principal do frontend
- ├── Dockerfile          # Arquivo de configuração Docker para containerização
- ├── README.md           # Documentação do projeto
-
-
 ## Importância das Funcionalidades
-
-- **Escalabilidade**: O uso de Django Rest Framework e a arquitetura baseada em APIs permite a integração futura com aplicativos móveis ou outros sistemas.
   
 - **Eficiência**: A implementação de filtros e listagens otimizadas melhora a experiência do usuário, reduzindo o tempo necessário para encontrar informações relevantes.
   
